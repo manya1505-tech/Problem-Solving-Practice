@@ -1,4 +1,4 @@
-# Java Stdin and Stdout I
+# Java If-Else
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -53,25 +53,29 @@ Print `Weird` if the number is weird; otherwise, print `Not Weird`.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-03T14:54:59.340Z  
+**Submitted:** 2026-10-03T15:27:21.755Z  
 
 ```java
 import java.io.*;
+import java.math.*;
 import java.util.*;
 
-public class Solution {
 
-    public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-      Scanner scanner = new Scanner(System.in);
-      int myInt1 = scanner.nextInt();
-      int myInt2 = scanner.nextInt();
-      int myInt3 = scanner.nextInt();
-      
-      System.out.println(myInt1);
-      System.out.println(myInt2);
-      System.out.println(myInt3);
-    }
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+      Scanner sc = new Scanner(System.in);
+      int n = sc.nextInt();
+      if (n % 2 != 0) {
+            System.out.println("Weird");
+        } else if (n >= 2 && n <= 5) {
+            System.out.println("Not Weird");
+        } else if (n >= 6 && n <= 20) {
+            System.out.println("Weird");
+        } else {
+            System.out.println("Not Weird");
+        }
+    }    
 }
 
 ```
