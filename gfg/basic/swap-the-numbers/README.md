@@ -27,7 +27,7 @@ Explanation: Initially a = 6 and b = 7, now a = 7 and b = 6.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-03T14:38:36.392Z  
+**Submitted:** 2026-10-03T14:39:03.710Z  
 
 ```java
 import java.util.Scanner;
@@ -35,8 +35,8 @@ import java.util.Scanner;
 class GFG {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        long a = sc.nextInt();
+        long b = sc.nextInt();
 
         // code here
         a= a+b;
