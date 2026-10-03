@@ -1,4 +1,4 @@
-# Java If-Else
+# Java Stdin and Stdout II
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -37,29 +37,25 @@ To make the problem easier, a portion of the code is already provided in the edi
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-03T15:27:27.859Z  
+**Submitted:** 2026-10-03T15:41:07.348Z  
 
 ```java
-import java.io.*;
-import java.math.*;
 import java.util.*;
 
-
-
 public class Solution {
-    public static void main(String[] args) throws IOException {
-      Scanner sc = new Scanner(System.in);
-      int n = sc.nextInt();
-      if (n % 2 != 0) {
-            System.out.println("Weird");
-        } else if (n >= 2 && n <= 5) {
-            System.out.println("Not Weird");
-        } else if (n >= 6 && n <= 20) {
-            System.out.println("Weird");
-        } else {
-            System.out.println("Not Weird");
-        }
-    }    
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    double b = sc.nextDouble();
+    sc.nextLine(); 
+    String str = sc.nextLine();
+    
+    System.out.println("String: "+str);
+    System.out.println("Double: "+b);
+    System.out.println("Int: "+a); 
+    }
 }
 
 ```
