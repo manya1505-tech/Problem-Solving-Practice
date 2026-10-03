@@ -48,9 +48,9 @@ Explanation: The last word is "joyboy" with length 6.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms (beats 25.85%)  
-**Memory:** 43.1 MB (beats 32.36%)  
-**Submitted:** 2026-10-02T07:19:19.823Z  
+**Runtime:** 1 ms (beats 25.97%)  
+**Memory:** 43.4 MB (beats 6.02%)  
+**Submitted:** 2026-10-03T03:35:15.274Z  
 
 ```java
 class Solution {
