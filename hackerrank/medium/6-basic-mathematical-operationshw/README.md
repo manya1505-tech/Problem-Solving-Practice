@@ -73,7 +73,7 @@ Output:
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-03T14:07:23.777Z  
+**Submitted:** 2026-10-03T14:11:38.547Z  
 
 ```java
 import java.util.*;
@@ -86,16 +86,17 @@ public class Solution {
 
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int sum= a+b;
-        int difference= a-b;
-        int product= a*b;
-        int quotient= a/b;
-        int remainder=a%b;
-         System.out.println(sum);
-         System.out.println(difference);
-         System.out.println(product);
-         System.out.println(quotient);
-         System.out.println(remainder);
+        // int sum= a+b;
+        // int difference= a-b;
+        // int product= a*b;
+        // int quotient= a/b;
+        // int remainder=a%b;
+        //  System.out.println(sum);
+        //  System.out.println(difference);
+        //  System.out.println(product);
+        //  System.out.println(quotient);
+        //  System.out.println(remainder);
+        System.out.println((a+b)+"\n"+(a-b)+"\n"+(a*b)+"\n"+(a/b)+"\n"+(a%b));
     }
 }
 
