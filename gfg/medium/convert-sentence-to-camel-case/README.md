@@ -33,7 +33,7 @@ Explanation: Spaces are removed, the first word retains its original case, and e
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T09:58:07.362Z  
+**Submitted:** 2026-10-05T10:00:38.888Z  
 
 ```java
 class Solution {
