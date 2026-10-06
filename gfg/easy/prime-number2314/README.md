@@ -33,7 +33,7 @@ Explanation: 1 has only one divisor (1 itself), which is not sufficient for it t
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-06T15:33:27.089Z  
+**Submitted:** 2026-10-06T15:38:22.574Z  
 
 ```java
 class Solution {
