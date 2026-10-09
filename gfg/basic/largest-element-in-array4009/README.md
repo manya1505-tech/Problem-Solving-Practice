@@ -28,21 +28,24 @@ Explanation: There is only one element which is the largest.
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T14:12:42.974Z  
+**Submitted:** 2026-10-09T09:53:51.428Z  
 
-```py
-class Solution:
-    def largest(self, arr):
-         max_value = arr[0]
-
-         for i in range(1, len(arr)):
-                if arr[i] > max_value:
-                    max_value = arr[i]
-
-         return max_value
+```java
+class Solution {
+    public static int largest(int[] arr) {
+        // code here
+        int max = arr[0];
+        for(int i =1; i<arr.length; i++){
+            if(arr[i] > max){
+                max = arr[i];
+            }
+        }
+        return max;
+    }
+}
 
 ```
 
