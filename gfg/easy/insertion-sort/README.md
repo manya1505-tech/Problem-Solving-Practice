@@ -31,7 +31,7 @@ Explanation: The sorted array will be [1, 4, 9].
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-23T09:02:56.538Z  
+**Submitted:** 2026-10-23T09:11:31.661Z  
 
 ```java
 class Solution {
